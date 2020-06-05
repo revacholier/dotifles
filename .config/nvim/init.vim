@@ -1,5 +1,6 @@
 set mouse=a
 set mousemodel=popup_setpos
+set number
 
 call plug#begin('~/.vim/plugged')
 

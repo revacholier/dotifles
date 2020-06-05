@@ -6,4 +6,13 @@
     "keyboard.dispatch": "keyCode",
     "files.trimTrailingWhitespace": false,
     "editor.fontLigatures": true,
+    "perl-toolbox.syntax.enabled": false,
+    "perl-toolbox.syntax.path": "",
+    "perl-toolbox.lint.perlcriticProfile": "$workspaceRoot/.perlcriticrc",
+    "perl-toolbox.lint.useProfile": true,
+    "perl-toolbox.lint.cruel": "critical",
+    "perl-toolbox.lint.brutal": "critical",
+    "perl-toolbox.lint.severity": "gentle",
+    "perltidy.profile": "/home/shaoron/mailwork/lead/perltidy.conf",
+    "diffEditor.ignoreTrimWhitespace": false,
 }

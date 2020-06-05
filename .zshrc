@@ -99,4 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 alias dotconfig='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias rsfromlead='rsync -chavzP --info="FLIST" --exclude "logs" leader:/home/b.atamanovskiy/work/lead ~/mailwork'
+alias rstolead='rsync -chavzP --info="FLIST" --exclude "logs" ~/mailwork/lead leader:/home/b.atamanovskiy/work'
 unset SSH_ASKPASS
+export FZF_DEFAULT_COMMAND='rg --files'
+
+PATH="/home/shaoron/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/shaoron/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/shaoron/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/shaoron/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/shaoron/perl5"; export PERL_MM_OPT;
